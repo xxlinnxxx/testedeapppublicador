@@ -1,0 +1,56 @@
+{
+  "short_name": "Faceless Shorts",
+  "name": "Faceless Shorts - Vídeos com IA",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#4a6cf7",
+  "background_color": "#f8fafc",
+  "orientation": "portrait",
+  "categories": ["video", "productivity", "utilities"],
+  "description": "Geração automatizada de vídeos curtos com IA",
+  "screenshots": [
+    {
+      "src": "screenshot1.png",
+      "sizes": "1280x720",
+      "type": "image/png"
+    },
+    {
+      "src": "screenshot2.png",
+      "sizes": "1280x720",
+      "type": "image/png"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Nova Ideia",
+      "short_name": "Ideia",
+      "description": "Criar nova ideia para vídeo",
+      "url": "/ideas/new",
+      "icons": [{ "src": "shortcut-idea.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Meus Vídeos",
+      "short_name": "Vídeos",
+      "description": "Ver meus vídeos",
+      "url": "/videos",
+      "icons": [{ "src": "shortcut-video.png", "sizes": "192x192" }]
+    }
+  ]
+}
